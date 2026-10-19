@@ -1,0 +1,6 @@
+{
+  "name": "VocabFlow - 智能單字卡與間隔複習",
+  "description": "自訂多語言單字卡、智慧間隔複習(SRS)、自動語音發音與錯題專屬測驗系統，打造直覺流暢的記憶體驗。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

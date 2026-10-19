@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 200" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="cloudGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F1F5F9" />
+      <stop offset="100%" stop-color="#E2E8F0" />
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#818CF8" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Ambient glow circle -->
+  <circle cx="120" cy="100" r="75" fill="url(#glowGrad)" />
+
+  <!-- Shadow below pedestal -->
+  <ellipse cx="120" cy="155" rx="70" ry="12" fill="#E2E8F0" fill-opacity="0.7" />
+
+  <!-- Back Card Stack -->
+  <rect x="75" y="55" width="90" height="95" rx="14" transform="rotate(-8 120 102)" fill="#C7D2FE" />
+  <rect x="75" y="55" width="90" height="95" rx="14" transform="rotate(6 120 102)" fill="#E0E7FF" />
+
+  <!-- Front Card -->
+  <rect x="75" y="50" width="90" height="95" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2" />
+
+  <!-- Success Checkmark Badge -->
+  <circle cx="120" cy="98" r="22" fill="#10B981" />
+  <path d="M112 98 L117 103 L129 91" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Floating Sparkles -->
+  <path d="M50 70 Q55 60 60 70 Q55 80 50 70" fill="#F59E0B" />
+  <circle cx="185" cy="65" r="4" fill="#6366F1" />
+  <circle cx="175" cy="130" r="3" fill="#EC4899" />
+  <circle cx="65" cy="125" r="3.5" fill="#38BDF8" />
+  <path d="M180 90 L184 94 L180 98 L176 94 Z" fill="#F59E0B" />
+</svg>
